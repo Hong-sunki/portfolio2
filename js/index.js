@@ -216,10 +216,15 @@ window.addEventListener('scroll', function(){
     let sct = this.scrollY;
     if ( sct >= 10 && !header.classList.contains('on') ) {
         header.classList.add('on')
+        if ( elHtml.classList.contains('pc') ) {
         elNav.classList.add('on')
+        }
     } else if ( sct < 10 && header.classList.contains('on') ) {
         header.classList.remove('on')
-        elNav.classList.remove('on')
+        if ( elHtml.classList.contains('pc') ) {
+            elNav.classList.remove('on')
+            }
+        
     }
 })
 
