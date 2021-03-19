@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel World</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/join.css">
+    <link rel="stylesheet" href="css/rwdjoin.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="logo">
+                <h1><a href="index.html"><span>Click!</span><img src="img/logo.png" alt="" ></a></h1>
+            </div>
+            <div class="open on"><button><i class="fas fa-bars"></i><span class="blind">메뉴열기</span></button></div>
+            <nav id="nav" class="cf">
+                <div class="navi nav1 cf">
+                    <ul class="depth1 cf">
+                        <li><a href="#none">SEASON</a>
+                            <ul class="depth2">
+                                <li><a href="#none">Sample</a></li>
+                                <li><a href="#none">Sample</a></li>
+                                <li><a href="#none">Sample</a></li>
+                                <li><a href="#none">Sample</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#none">PREVIEW</a>
+                            <ul class="depth2">
+                                <li><a href="#none">Sample</a></li>
+                                <li><a href="#none">Sample</a></li>
+                                <li><a href="#none">Sample</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#none">TRAVEL POINT</a>
+                            <ul class="depth2">
+                                <li><a href="traveltip.html">Travel TIP</a></li>
+                                <li><a href="#none">Sample</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navi nav2">
+                    <ul class="depth1 cf">
+                        <li><a href="#none">RESERVATION</a>
+                            <ul class="depth2">
+                                <li><a href="#none">Sample</a></li>
+                                <li><a href="#none">Sample</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#none">MORE</a>
+                            <ul class="depth2">
+                                <li><a href="#none">Sample</a></li>
+                                <li><a href="#none">Sample</a></li>
+                                <li><a href="#none">Sample</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#none">COMMUNITY</a>
+                            <ul class="depth2">
+                                <li><a href="notice.html">공지사항</a></li>
+                                <li><a href="login.html">로그인</a></li>
+                                <li><a href="join.html">회원가입</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="close">
+                <button><i class="fas fa-times"></i><span class="blind">메뉴닫기</span></button>
+            </div>
+        </header>
+            <section id="section" class="joinpage">
+                <div class="joinbox joinrow">
+                    <h2>회원가입</h2>
+                    <form action="#none" method="post">
+                        <fieldset>
+                            <legend>회원가입</legend>
+                            <table>
+                                <colgroup>
+                                <col>
+                                <col>
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th><label for="idbox">아이디</label></th>
+                                        <td>
+                                            <input type="text" id="idbox" name="idbox">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="pwd">비밀번호</label></th>
+                                        <td>
+                                            <input type="password" id="pwd" name="pwd">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="irum">이름</label></th>
+                                        <td>
+                                            <input type="text" id="irum" name="irum">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th rowspan="2"><label for="adr">주소</label></th>
+                                        <td>
+                                            <input type="text" id="adr" name="adr">
+                                            <button type="button">우편번호</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="text" id="adr1" name="adr1" placeholder="상세 주소를 입력하세요">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="hp">휴대전화</label></th>
+                                        <td>
+                                            <select name="hp" id="hp">
+                                                <option value="010">010</option>
+                                                <option value="011">011</option>
+                                            </select> - 
+                                            <input type="text" id="hp1" name="hp1"> -
+                                            <input type="text" id="hp2" name="hp2">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>수신여부</th>
+                                        <td>
+                                            <p><input type="radio" value="ok" id="a" name="sms"> <label for="a">동의함</label>
+                                            <input type="radio" value="no" id="n" name="sms"> <label for="n">동의하지 않음</label></p>
+                                            <span>
+                                                유익한 이벤트 소식을 SMS로 받으실 수 있습니다.
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="emailid">이메일</label></th>
+                                        <td>
+                                            <input type="text" id="emailid" name="emailid"> @
+                                            <input type="text" id="emaildomain" name="emaildomain" placeholder="naver.com">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>수신여부</th>
+                                        <td>
+                                            <p><input type="radio" value="ok" id="a" name="email"> <label for="a">동의함</label>
+                                               <input type="radio" value="no" id="n" name="email"> <label for="n">동의하지 않음</label></p>
+                                            <span>
+                                                유익한 이벤트 소식을 E-mail로 받으실 수 있습니다.
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </fieldset>
+                        <fieldset>
+                            <legend>추가정보</legend>
+                            <h3>추가정보</h3>
+                            <table>
+                                <colgroup>
+                                <col>
+                                <col>
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th>성별</th>
+                                        <td>
+                                            <input type="radio" id="male" name="gender" value="m"> <label for="male">남자</label>
+                                            <input type="radio" id="female" name="gender" value="w"> <label for="female">여자</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="local">지역</label></th>
+                                        <td>
+                                            <select name="local" id="local">
+                                                <option>선택</option>
+                                                <option value="서울">서울</option>
+                                                <option value="경기도">경기도</option>
+                                                <option value="경상도">경상도</option>
+                                                <option value="충청도">충청도</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>추천경로</th>
+                                        <td>
+                                            <span class="chbox">
+                                                <input type="checkbox" id="face" name="face" value="페이스북"> <label for="face">페이스북</label>
+                                                <input type="checkbox" id="ins" name="ins" value="인스타그램"> <label for="ins">인스타그램</label>
+                                            </span>
+                                            <span class="chbox">
+                                                <input type="checkbox" id="fr" name="fr" value="지인추천"> <label for="fr">지인추천</label>
+                                                <input type="checkbox" id="internet" name="internet" value="인터넷"> <label for="internet">인터넷</label>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="memo">메모</label></th>
+                                        <td>
+                                            <textarea name="memo" id="memo" maxlength="50" placeholder="50글자 내로 입력해주세요"></textarea>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </fieldset>
+                        
+                        <div class="btn">
+                            <button type="submit">전송</button>
+                            <button type="reset">취소</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        <footer id="footer">
+            <div class="row">
+                <ul>
+                    <li><a href="#none">회사소개</a></li>
+                    <li><a href="#none">이용약관</a></li>
+                    <li><a href="#none">개인정보처리방침</a></li>
+                    <li><a href="#none">여행약관</a></li>
+                    <li><a href="#none">해외여행자보험</a></li>
+                    <li><a href="#none">마케팅제휴</a></li>
+                </ul>
+                <ul>
+                    <li>상호명 : Travel</li>
+                    <li>대표자명 : 홍길동</li>
+                    <li>주소 : 서울특별시 관악구 123-4</li>
+                    <li>사업자 등록번호 : 103-81-124852</li>
+                    <li>통신판매업신고번호 : 관악01-1524호</li>
+                    <li>관광사업자등록번호 : 제1993-000015호</li>
+                    <li><a href="mailto:tkwlsuwj@naver.com">E-mail : tkwlsuwj@naver.com</a></li>
+                    <li><a href="tel:02-123-4567">고객센터 : 02-123-4567</a> </li>
+                </ul>
+            </div>
+        </footer>
+        <div class="sns">
+            <a href="#none"><span class="blind">페이스북</span><i class="fab fa-facebook-f"></i></a>
+            <a href="#none"><span class="blind">인스타그램</span><i class="fab fa-instagram"></i></a>
+            <a href="#none"><span class="blind">트위터</span><i class="fab fa-twitter"></i></a>
+            <a href="#none"><span class="blind">카카오톡</span><i class="fas fa-sms"></i></a>
+            <a href="#" class="top">TOP</a>
+        </div>
+    </div>
+
+    <script src="js/join.js"></script>
+</body>
+</html>

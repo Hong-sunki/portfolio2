@@ -1,0 +1,357 @@
+[
+    {
+        "area" : "Danang",
+        "Agency" : "Travel",
+        "Period" : "2박 3일",
+        "Price" : 680000,
+        "Explanation" : "휴양지에서의 꿀같은 휴식 !! 자유여행느낌을 받을수 있는 패키지입니다",
+        "Photo" : "img/asiadanang.jpg"
+    },
+    {
+        "area" : "Hokkaido",
+        "Agency" : "Travel",
+        "Period" : "2박 3일",
+        "Price" : 470000,
+        "Explanation" : "삶의 피로에 지친 당신 ! 온천 여행으로 떠나서 힐링해보실래요",
+        "Photo" : "img/asiahokkaido.jpg"
+    },
+    {
+        "area" : "Japan",
+        "Agency" : "Travel",
+        "Period" : "3박 4일",
+        "Price" : 580000,
+        "Explanation" : "가깝지만 먼나라 일본에서 이국적인 풍경과 맛있는 음식들을 즐겨보세요",
+        "Photo" : "img/asiajapan.jpg"
+    },
+    {
+        "area" : "Dubai",
+        "Agency" : "Travel",
+        "Period" : "3박 4일",
+        "Price" : 840000,
+        "Explanation" : "미래도시 두바이와 수도 아부다비의 엄선된 인기 관광지를 돌아봅니다. 찍는 곳마다 화보가 되고 보는 것마다 놀라움이 가득합니다",
+        "Photo" : "img/asiadubai.jpg"
+    },
+    {
+        "area" : "HongKong",
+        "Agency" : "Travel",
+        "Period" : "2박 3일",
+        "Price" : 560000,
+        "Explanation" : "여행에 최적화된 시내 중심 호텔에 숙박! 패키지 단체식은 NO, 자유롭게 맛집 정복! 패키지 쇼핑은 NO! 자유여행보다 나은 NEW패키지 여행!",
+        "Photo" : "img/asiahongkong.jpg"
+    },
+    {
+        "area" : "Kotakinabalu",
+        "Agency" : "Travel",
+        "Period" : "4박 5일",
+        "Price" : 990000,
+        "Explanation" : "최고의 여행지에서의 꿀 같은 4박 5일의 시간 삶의 피로를 풀고 가지않으실래요 ?",
+        "Photo" : "img/asiakotakinabalu.jpg"
+    },
+    {
+        "area" : "Macau",
+        "Agency" : "Travel",
+        "Period" : "2박 3일",
+        "Price" : 570000,
+        "Explanation" : "내가 찾던 마카오 여행! 마카오 프라이빗 단독 여행 상품",
+        "Photo" : "img/asiamacau.jpg"
+    },
+    {
+        "area" : "Maldives",
+        "Agency" : "Travel",
+        "Period" : "2박 3일",
+        "Price" : 680000,
+        "Explanation" : "아이와 함께하는 가족여행에 강력추천! #엄마가 편한 가족여행 #맛있는 미식여행 #나에게 딱 맞는 컨셉 여행",
+        "Photo" : "img/asiamaldives.jpg"
+    },
+    {
+        "area" : "Phuket",
+        "Agency" : "Travel",
+        "Period" : "2박 3일",
+        "Price" : 490000,
+        "Explanation" : "푸껫 여행의 정석! 푸껫 대표 관광 일정 & 파통 시내 인기 리조트 & 태국의 맛 3박자 ♬",
+        "Photo" : "img/asiaphuket.jpg"
+    },
+    {
+        "area" : "Singapore",
+        "Agency" : "Travel",
+        "Period" : "2박 3일",
+        "Price" : 430000,
+        "Explanation" : "항공권을 별도로 구매하신 고객님! 엄선한 호텔+알찬 현지투어 패키지를 추천드립니다",
+        "Photo" : "img/asiasingapore.jpg"
+    },
+    {
+        "area" : "Singapore",
+        "Agency" : "Travel",
+        "Period" : "3박 4일",
+        "Price" : 570000,
+        "Explanation" : "패키지여행의 편안함과 품격있는 가이드서비스는 더하고, 쇼핑/가이드기사경비 부담은 덜어낸 강력추천상품입니다",
+        "Photo" : "img/asiasingapore1.jpg"
+    },
+    {
+        "area" : "Taiwan",
+        "Agency" : "Travel",
+        "Period" : "2박 3일",
+        "Price" : 380000,
+        "Explanation" : "영화 속 명소가 포함되어 대만의 감성을 느낄 수 있는 꾸준한 인기의 상품입니다",
+        "Photo" : "img/asiataiwan.jpg"
+    },
+    {
+        "area" : "Sydney",
+        "Agency" : "Travel",
+        "Period" : "3박 4일",
+        "Price" : 990000,
+        "Explanation" : "단기 속성 코스 !! 유명한 곳들을 빠르게 !",
+        "Photo" : "img/sydney.jpg"
+    },
+    {
+        "area" : "Sydney",
+        "Agency" : "Travel",
+        "Period" : "4박 5일",
+        "Price" : 1200000,
+        "Explanation" : "도시와 자연이 공존하는 매력적인 여행지! 호주 시드니의 핵심 코스로 구성된 일정으로 매년 사랑받고 있는 상품입니다",
+        "Photo" : "img/sydney2.jpg"
+    },
+    {
+        "area" : "Sydney",
+        "Agency" : "Travel",
+        "Period" : "7박 8일",
+        "Price" : 1600000,
+        "Explanation" : "호주인이 가장 사랑하는 휴양지 골드코스트 & 호주의 랜드마크 시드니를 여행할 수 있는 스테디셀러 상품입니다",
+        "Photo" : "img/sydney3.jpg"
+    },
+    {
+        "area" : "Sydney",
+        "Agency" : "Travel",
+        "Period" : "9박 10일",
+        "Price" : 1800000,
+        "Explanation" : "세계 6번째의 국토면적 ! 9박 10일 동안 다양하게 즐겨보자 !",
+        "Photo" : "img/sydney4.jpg"
+    },
+    {
+        "area" : "Newzealand",
+        "Agency" : "Travel",
+        "Period" : "2박 3일",
+        "Price" : 840000,
+        "Explanation" : "푸른 초원 위에 펼쳐진 양들을 구경하러 가보실래요 ?",
+        "Photo" : "img/newzealand.jpg"
+    },
+    {
+        "area" : "Newzealand",
+        "Agency" : "Travel",
+        "Period" : "3박 4일",
+        "Price" : 990000,
+        "Explanation" : "휴식과 여러 체험을 동시에 ! 알차게 즐길수 있는 패키지",
+        "Photo" : "img/newzealand2.jpg"
+    },
+    {
+        "area" : "Newzealand",
+        "Agency" : "Travel",
+        "Period" : "4박 5일",
+        "Price" : 1100000,
+        "Explanation" : "제대로된 뉴질랜드를 경험할수 있는 소규모 여행 !",
+        "Photo" : "img/newzealand3.jpg"
+    },
+    {
+        "area" : "Newzealand",
+        "Agency" : "Travel",
+        "Period" : "7박 8일",
+        "Price" : 1500000,
+        "Explanation" : "높은 하늘과 맑은 공기, 대자연이 선사하는 경이로운 아름다움을 확인해 볼 수 있는 청정 자연의 여행지입니다",
+        "Photo" : "img/newzealand4.jpg"
+    },
+    {
+        "area" : "Cancun",
+        "Agency" : "Travel",
+        "Period" : "2박 3일",
+        "Price" : 520000,
+        "Explanation" : "고민말고 떠나라 ! 최고의 2박 3일을 선사해드립니다",
+        "Photo" : "img/americacancun.jpg"
+    },
+    {
+        "area" : "Hawaii",
+        "Agency" : "Travel",
+        "Period" : "2박 3일",
+        "Price" : 690000,
+        "Explanation" : "더 이상 설명이 필요없는 최고의 휴양지 하와이에서 즐겨보세요 !",
+        "Photo" : "img/americahawaii.jpg"
+    },
+    {
+        "area" : "Saipan",
+        "Agency" : "Travel",
+        "Period" : "3박 4일",
+        "Price" : 1100000,
+        "Explanation" : "숨은 보석 자연의 숨결을 많이 느껴볼수있는 사이판패키지",
+        "Photo" : "img/americasaipan.jpg"
+    },
+    {
+        "area" : "Guam",
+        "Agency" : "Travel",
+        "Period" : "3박 4일",
+        "Price" : 840000,
+        "Explanation" : "휴양지의 느낌과 여행지의 느낌을 동시에 받고 싶은 분들에게 강추하는 여행지 !",
+        "Photo" : "img/guam.jpg"
+    },
+    {
+        "area" : "America East",
+        "Agency" : "Travel",
+        "Period" : "4박 5일",
+        "Price" : 2400000,
+        "Explanation" : "꿈을 꾸면 도착할 것 같은, 힙스터들이 모여 있을 것 같은 뉴욕을 여유롭고 느긋하게 즐길 수 있는 상품입니다",
+        "Photo" : "img/america1.jpg"
+    },
+    {
+        "area" : "America East",
+        "Agency" : "Travel",
+        "Period" : "5박 6일",
+        "Price" : 2600000,
+        "Explanation" : "영화에서만 봤던 자유의여신상을 페리를 타고 가까이서 볼 수 있고, 브로드웨이를 걸어보세요!",
+        "Photo" : "img/america2.jpg"
+    },
+    {
+        "area" : "America East",
+        "Agency" : "Travel",
+        "Period" : "7박 8일",
+        "Price" : 2850000,
+        "Explanation" : "이곳이 바로 미국이다 ! 화려한 도시에 남다른 감성까지 !",
+        "Photo" : "img/america3.jpg"
+    },
+    {
+        "area" : "America East",
+        "Agency" : "Travel",
+        "Period" : "9박 10일",
+        "Price" : 2990000,
+        "Explanation" : "미국 동부 완벽정복 패키지 ! 진짜 미국을 알고싶다면 당장 GoGo! ",
+        "Photo" : "img/america4.jpg"
+    },
+    {
+        "area" : "Canada",
+        "Agency" : "Travel",
+        "Period" : "4박 5일",
+        "Price" : 2400000,
+        "Explanation" : "캐나다 동부의 아름다운 도시 퀘벡/몬트리올까지 포함한 더욱 풍성한 일정! 밴쿠버/로키/토론토/나이아가라/퀘벡/몬트리올",
+        "Photo" : "img/america5.jpg"
+    },
+    {
+        "area" : "America West",
+        "Agency" : "Travel",
+        "Period" : "4박 5일",
+        "Price" : 2200000,
+        "Explanation" : "이곳이 미국이다 ! 맛집투어",
+        "Photo" : "img/america6.jpg"
+    },
+    {
+        "area" : "America West",
+        "Agency" : "Travel",
+        "Period" : "5박 6일",
+        "Price" : 2340000,
+        "Explanation" : "기분까지 상쾌하는 햇살, 바다와 볼거리 샌프란시스코를 우리끼리 느긋하고 여유롭게 돌아볼 수 있는 상품입니다.",
+        "Photo" : "img/america7.jpg"
+    },
+    {
+        "area" : "America West",
+        "Agency" : "Travel",
+        "Period" : "7박 8일",
+        "Price" : 2500000,
+        "Explanation" : "그랜드캐년은 유명하죠, 못지 않게 아름다운 앤텔롭 캐년, 브라이스 캐년은 들어보셨나요? ",
+        "Photo" : "img/america8.jpg"
+    },
+    {
+        "area" : "Switzerland",
+        "Agency" : "Travel",
+        "Period" : "4박 5일",
+        "Price" : 1900000,
+        "Explanation" : "스위스의 핵심 지역을 쏙쏙! 좀 더 알차게 즐기는 스위스 1개국 여행!",
+        "Photo" : "img/europe1.jpg"
+    },
+    {
+        "area" : "France",
+        "Agency" : "Travel",
+        "Period" : "4박 5일",
+        "Price" : 2180000,
+        "Explanation" : "안전한 호텔, 아름다운 자연, 한적한 소도시에서 즐기는 여유로운 일정을 즐겨보세요",
+        "Photo" : "img/europe2.jpg"
+    },
+    {
+        "area" : "Czech",
+        "Agency" : "Travel",
+        "Period" : "4박 5일",
+        "Price" : 2100000,
+        "Explanation" : "유럽의 느낌을 제대로 받고싶다면 바로 이곳 체코로 여행하세요 !",
+        "Photo" : "img/europe3.jpg"
+    },
+    {
+        "area" : "Italy",
+        "Agency" : "Travel",
+        "Period" : "5박 6일",
+        "Price" : 2320000,
+        "Explanation" : "베네치아 같은 느낌을 좋아한다면 이탈리아로 !",
+        "Photo" : "img/europe4.jpg"
+    },
+    {
+        "area" : "Russia",
+        "Agency" : "Travel",
+        "Period" : "4박 5일",
+        "Price" : 990000,
+        "Explanation" : "자연이 숨쉬는 예술의 나라 러시아를 한번에 관광하는 상품입니다.",
+        "Photo" : "img/europe5.jpg"
+    },
+    {
+        "area" : "Spain",
+        "Agency" : "Travel",
+        "Period" : "5박 6일",
+        "Price" : 2250000,
+        "Explanation" : "정열의 나라 스페인으로 여러분을 초대합니다 !",
+        "Photo" : "img/europe6.jpg"
+    },
+    {
+        "area" : "United Kingdom",
+        "Agency" : "Travel",
+        "Period" : "4박 5일",
+        "Price" : 2480000,
+        "Explanation" : "안전한 호텔, 식당,차량을 이용하는 보다 안전하고 특별한 여행상품입니다. 아름다운 자연, 한적한 소도시에서 즐기는 여유로운 일정을 즐겨보세요",
+        "Photo" : "img/europe7.jpg"
+    },
+    {
+        "area" : "United Kingdom",
+        "Agency" : "Travel",
+        "Period" : "9박 10일",
+        "Price" : 2990000,
+        "Explanation" : "1개국 깊이보기! 신사의 나라~ 다양한 자연과 문화, 예술이 가득한 낭만의 나라 영국을 깊이있게 일주하는 여행!",
+        "Photo" : "img/europe8.jpg"
+    },
+    {
+        "area" : "Greece",
+        "Agency" : "Travel",
+        "Period" : "4박 5일",
+        "Price" : 1440000,
+        "Explanation" : "산토리니같은 아름다운 풍경을 사진이 아닌 실제로 경험하세요",
+        "Photo" : "img/europeeasterneurope.jpg"
+    },
+    {
+        "area" : "Paris",
+        "Agency" : "Travel",
+        "Period" : "5박 6일",
+        "Price" : 2300000,
+        "Explanation" : "예술의 나라 프랑스 ! 전세계적으로 가장 유명한 에펠탑을 만나보세요 !",
+        "Photo" : "img/europewesteurope.jpg"
+    },
+    {
+        "area" : "Norway",
+        "Agency" : "Travel",
+        "Period" : "4박 5일",
+        "Price" : 2200000,
+        "Explanation" : "노르웨이의 아름다운 자연경관으로 당신을 초대합니다",
+        "Photo" : "img/europeswitzerland.jpg"
+    },
+    {
+        "area" : "Hungary",
+        "Agency" : "Travel",
+        "Period" : "4박 5일",
+        "Price" : 2070000,
+        "Explanation" : "동유럽만의 색다름! 헝가리패키지",
+        "Photo" : "img/europeswitzerland1.jpg"
+    }
+
+
+    
+]

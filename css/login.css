@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+body { font-family: 'Ubuntu', sans-serif; }
+.row { max-width: 1200px; margin: 0 auto; }
+.loginrow { max-width: 800px; margin: 0 auto; }
+legend { display: none; }
+input, button { outline: none; }
+
+
+
+#header { position: relative; top: 0%; left: 0; width: 100%; height: 80px; background: #363636;}
+#header .logo { top: 0px; }
+#header .logo span { display: none; }
+#header .open, #header .close { display: none; }
+.logo { position: absolute; top: 50px; left: 50%; transform: translate(-50%); z-index: 9999; }
+.logo h1 { width: 320px; }
+.logo span { position: absolute; top: -10px; left: 50%; transform: translate(-70%); font-weight: bold; color: #fff; animation: flash  3s both alternate infinite;  }
+.logo span.on { display: none; }
+#nav {  color: #fff;  }
+#nav .nav1 { float: left; width: 50%; opacity: 1; transition: all 1s; padding-right: 50px; margin-top: 15px; }
+#nav .nav2 { float: right; width: 50%; opacity: 1; transition: all 1s; padding-left: 50px; margin-top: 15px; }
+#nav .nav1 .depth1 { float: right; margin-right: 100px; }
+#nav .nav2 .depth1 { float: left; margin-left: 100px; }
+#nav .depth1 > li {  float: left; font-size: 20px; padding: 15px 40px 20px; position: relative; }
+#nav .depth1 > li.on .depth2 { height: 180px; }
+#nav .depth2 {  transition: all 0.6s; height: 0px; overflow: hidden; position: absolute; top: 117%; left: 50%; transform: translate(-50%); width: 100%; text-align: center;}
+#nav .depth2 > li { padding: 15px 0; transition: all 0.5s; background: rgba(0, 0, 0, 0.6); font-size: 15px; }
+#nav .depth2 > li.on { background: rgba(0, 0, 0, 0.8); font-weight: bold; }
+#nav .depth2 > li > a { display: inline-block; width: 100%; }
+
+.loginbox { margin: 150px auto; text-align: center; }
+.loginbox h2 { font-size: 40px; margin-bottom: 40px; position: relative; padding-bottom: 20px; }
+.loginbox h2::after { content: ''; position: absolute; top: 100%; left: 50%; transform: translate(-50%); width: 400px; height: 3px; background: orange; }
+.loginbox table td { width: 100%; }
+.loginbox table input { margin-top: 20px; width: 40%; height: 40px; padding: 10px; border: 1px solid #ddd; }
+.loginbox table input::placeholder { text-align: center; font-size: 16px; }
+.loginbox button { display: block; margin: 40px auto; width: 400px; height: 50px; border-radius: 10px; background: orange; color: #fff; border: none; font-size: 20px; font-weight: bold; letter-spacing: 0.1em;
+                   cursor: pointer; }
+.loginbox a { margin: 0 15px; font-size: 14px; }
+.loginbox a:nth-of-type(2) { position: relative;  }
+
+
+
+
+
+
+
+#footer { background: #363636; color: #fff; padding-bottom: 50px; }
+#footer ul { text-align: center; }
+#footer li { display: inline-block; margin: 40px 10px 0; font-size: 13px; position: relative; }
+#footer li::after { content: ''; position: absolute; top: 10%; right: -12px;  width: 1px; height: 10px; background: #fff; }
+#footer li:nth-child(6)::after { display: none; }
+#footer li:nth-child(8)::after { display: none; }
+#footer li a { display: inline-block; text-align: center; }
+
+
+.sns { position: fixed; bottom: 50px; right: 50px; text-align: center; color: #fff; }
+.sns a {  display: block; width: 30px; height: 30px; background: rgba(0, 0, 0, 0.6); border-radius: 50%; margin: 10px 0; line-height: 30px; transition: all 0.3s; box-shadow: 3px 3px 2px #333; }
+.sns a:nth-child(5) { font-size: 10px; }
+.sns a.on { transform: scale(1.1); color: yellow; }

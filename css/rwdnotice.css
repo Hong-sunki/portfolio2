@@ -1,0 +1,69 @@
+@media screen and (max-width: 1500px) { 
+    #nav .depth1 > li {  float: left; font-size: 20px; padding: 10px 25px 25px; position: relative; }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .logo h1 { width: 250px; padding-top: 10px; }
+    #nav .depth1 > li {  float: left; font-size: 18px; padding: 12px 15px 25px; position: relative; }
+
+    #footer li::after { content: ''; display: none; position: absolute; top: 10%; right: -12px;  width: 1px; height: 10px; background: #fff; }
+
+}
+
+@media screen and (max-width: 1024px) {
+    #header .open, #header .close { position: absolute; top: 20px; right: 30px; }
+    #header .open, #header .close { display: none; }
+    #header .open.on, #header .close.on { display: block; }
+    #header button { border: none; background: transparent; }
+    #header .open i, #header .close i { font-size: 35px; color: #fff; }
+    #nav {  color: #fff; color: #363636; position: absolute; top: 100%; right: -190px; z-index: 9999; height: 0; overflow: hidden; font-weight: bold; box-shadow: -1px 1px 5px #999;
+            background: #fff; transition: right 0.6s; }
+    #nav.on { height: auto; right: 0; }
+    #nav .nav1 { float: none; width: 100%; opacity: 1; transition: all 1s; padding-right: 0px; margin-top: 0px; text-align: center; }
+    #nav .nav2 { float: none; width: 100%; opacity: 1; transition: all 1s; padding-left: 0px;  margin-top: 0px; text-align: center; }
+    #nav .nav1 .depth1 { float: none; margin-right: 0px; }
+    #nav .nav2 .depth1 { float: none; margin-left: 0px; }
+    #nav .depth1 > li {  float: none; font-size: 20px; padding: 15px 20px 15px; position: relative; }
+    #nav .depth1 > li.on { color: blue; padding: 15px 20px 0; }
+    #nav .depth1 > li.on .depth2 { height: 100%; }
+    #nav .depth2 {  transition: 0s; height: 0; overflow: hidden; position: static; top: 117%; left: 50%;  transform: translate(0%); width: 100%; text-align: center; color: #363636; }
+    #nav .depth2 > li { padding: 15px 0; transition: all 0.5s; background: #fff; font-size: 15px;  }
+    #nav .depth2 > li.on { background: #fff; font-weight: bold; }
+    #nav .depth2 > li > a { display: inline-block; width: 100%; }
+
+    .noticebox h2 { font-size: 40px; text-align: center; margin-top: 50px; margin-bottom: 50px; padding-bottom: 20px; position: relative; }
+
+    .sns { position: fixed; bottom: 50px; right: 50px; text-align: center; color: #fff; display: none; }
+}
+
+@media screen and (max-width: 768px) {
+    .logo { position: absolute; top: 50px; left: 5%; transform: translate(0%); z-index: 9999; }
+
+    .noticebox h2 { font-size: 40px; text-align: center; margin-top: 50px; margin-bottom: 50px; padding-bottom: 20px; position: relative; }
+    .noticebox h2::after { content: ''; position: absolute; top: 100%; left: 50%; transform: translate(-50%); width: 300px; height: 5px; background: orange; }
+
+    
+}
+
+@media screen and (max-width: 600px) {
+    .logo h1 { width: 200px; padding-top: 15px; }
+
+    .noticebox h2 { font-size: 30px; text-align: center; margin-top: 50px; margin-bottom: 50px; padding-bottom: 20px; position: relative; }
+    .noticebox h2::after { content: ''; position: absolute; top: 100%; left: 50%; transform: translate(-50%); width: 200px; height: 5px; background: orange; }
+
+    .noticebox col:nth-child(1) { width: 10%; }
+    .noticebox col:nth-child(2) { width: auto;  }
+    .noticebox col:nth-child(3) { width: 30%; }
+}
+
+@media screen and (max-width: 400px) {
+    .logo h1 { width: 180px; padding-top: 15px; }
+    #header .open, #header .close { position: absolute; top: 25px; right: 30px; }
+    #header .open i, #header .close i { font-size: 30px; color: #fff; }
+    
+    .noticebox thead th { font-weight: bold; font-size: 14px; padding-bottom: 10px; }
+    .noticebox col:nth-child(3) { width: 40%; }
+    .noticebox td:nth-child(3) { color: #999; font-size: 14px; }
+
+}
