@@ -12,6 +12,8 @@
 }
 
 @media screen and (max-width: 1024px) {
+    html { overflow-x: hidden; }
+
     #header .open, #header .close { position: absolute; top: 20px; right: 30px; }
     #header .open, #header .close { display: none; }
     #header .open.on, #header .close.on { display: block; }

@@ -15,9 +15,9 @@
 @media screen and (max-width: 1300px) { 
     .logo h1 { width: 250px; }
     #header.on .logo { top: 10px; }
-    #nav .depth1 > li {  float: left; font-size: 20px; padding: 10px 10px 25px; position: relative; }
-    #nav.on .nav1 { opacity: 1; transform: translate(-30px); }
-    #nav.on .nav2 { opacity: 1; transform: translate(30px); } 
+    #nav .depth1 > li {  float: left; font-size: 18px; padding: 10px 10px 25px; position: relative; }
+    #nav.on .nav1 { opacity: 1; transform: translate(-0px); }
+    #nav.on .nav2 { opacity: 1; transform: translate(0px); } 
     
     .article2 .intext { position:relative; z-index: 999; color: #fff; font-size: 40px; text-align: center;  }
     .article5 .video { position: relative; width: 40%; margin-left: 150px; }
@@ -25,6 +25,8 @@
     .videotxt {  width: 40%;  color: #363636; font-size: 15px; text-align: center; font-weight: bold; text-shadow: 1px 1px 3px #999; margin-top: 50px; }
     .videotxt h3 { font-size: 25px; margin-bottom: 30px; }
     .videotxt p { line-height: 2.5; color: #999; }
+
+    
 
     .inrleft { width: 24%; margin-left: 3%; margin-right: 4%; }
     .inrcenter { width: 30%; margin-right: 6%; position: relative; }
@@ -34,19 +36,23 @@
 }
 
 @media screen and (max-width: 1024px) {
+
+    html { overflow-x: hidden; }
+
     #header { position: absolute; top: 0; left: 0; right: 0; z-index: 9999; transition: all 0.5s; background: rgba(0, 0, 0, 0.8); height: 100px; }
-    #header.on { position: fixed; top: 0%; left: 0; width: 100%; height: 100px; background: rgba(0, 0, 0, 0.8);}
+    #header.on { position: fixed; top: 0; left: 0; width: 100%; height: 100px; background: rgba(0, 0, 0, 0.8);}
     #header.on #nav { margin-top: 0px; }
     #header.on .logo { top: 20px; }
     .logo { position: absolute; top: 20px; left: 50px; transform: translate(0%); z-index: 9999; }
     .logo span { display: none; position: absolute; top: 20%; left: 50%; transform: translate(-70%); font-weight: bold; color: #fff; animation: flash  3s both alternate infinite;  }
     #header .open, #header .close { position: absolute; top: 30px; right: 30px; }
+    #header.on .open, #header.on .close { position: absolute; top: 35px; right: 30px; }
     #header .open, #header .close { display: none; }
     #header .open.on, #header .close.on { display: block; }
     #header button { border: none; background: transparent; }
     #header .open i, #header .close i { font-size: 35px; color: #fff; }
-    #nav { margin-top: 0px; color: #363636; position: absolute; top: 100%; right: -250px; transform: translateY(0px); transition: all 0.8s;  background: #fff; overflow: auto; width: 0px; text-align: center; display: block; box-shadow: 2px 2px 5px #999;  }
-    #nav.on { width: 250px; right: 0; overflow-y: auto; ; }
+    #nav { margin-top: 0px; color: #363636; position: absolute; top: 100%; right: -250px; transform: translateY(0px); transition: all 0.6s;  background: #fff; overflow-x: hidden;  width: 0px; text-align: center; display: block; box-shadow: 2px 2px 5px #999;  }
+    #nav.on { width: 250px; right: 0;  }
     #nav.on .nav1 { opacity: 1; transform: translate(0px); }
     #nav.on .nav2 { opacity: 1; transform: translate(-50px); margin-top: 0; } 
     #nav .nav1 { float: none; width: 0%; opacity: 1; transition: all 0s; transform: translate(0px); }
@@ -60,6 +66,8 @@
     #nav .depth2 > li { padding: 15px 0; transition: all 0.5s; background: #fff; font-size: 18px; font-weight: bold; }
     #nav .depth2 > li.on { background: #fff; font-weight: bold; }
 
+
+
     .article1 .slide_group .slide1 { background: url(../img/bg1.jpg) no-repeat center; background-size: cover; width: 100%; height: 70vh; }
     .slide_group .slide2 { background: url(../img/bg2.jpg) no-repeat center; background-size: cover; height: 70vh }
     .slide_group .slide3 { background: url(../img/bg3.jpg) no-repeat center; background-size: cover; height: 70vh }
@@ -71,7 +79,9 @@
     .article5 .video { position: relative; width: 40%; margin-left: 100px; }
     
     .article6 .title { text-align: center; }
-    .article6 .cont li {  float: left; width: 30%; height: 188px; display: none; margin: 10px 10px; border-radius: 10px; position: relative; }
+    .article6 .cont { overflow: hidden; margin: 20px 0 50px; padding-left: 3%; }
+    .article6 .cont li {  float: left; width: 30%; height: 188px; margin: 10px 10px; display: none; border-radius: 10px; position: relative; }
+    
 
     #footer li::after { display: none; content: ''; position: absolute; top: 10%; right: -12px;  width: 1px; height: 10px; background: #fff; }
 
@@ -81,8 +91,8 @@
 @media screen and (max-width: 768px) {
     #header.on .logo { top: 20px; }
     .logo { position: absolute; top: 20px; left: 50px; transform: translate(0%); z-index: 9999; }
-    #header .open, #header .close { position: absolute; top: 30px; right: 30px; }
-    #header.on .open, #header.on .close { position: absolute; top: 25px; right: 30px; }
+    #header .open, #header .close { position: absolute; top: 35px; right: 30px; }
+    #header.on .open, #header.on .close { position: absolute; top: 35px; right: 30px; }
     #header .open i, #header .close i { font-size: 30px; color: #fff; }
     .slide_group .slide .slide_text { opacity: 0; position: absolute; top: 50%; left: 0%; right: 0%; transform: translateY(-50%); color: rgba(255, 255, 255, 1); font-size: 40px; line-height: 2; 
         text-align: center;  font-weight: bold; letter-spacing: 0.1em;
@@ -102,6 +112,7 @@
     .videotxt { display: none;  width: 40%;  color: #363636; font-size: 20px; text-align: center; font-weight: bold; text-shadow: 1px 1px 3px #999; margin-top: 30px; margin-left: 10px; }
     .videotxt h3 { display: none; font-size: 30px; margin-bottom: 30px; }
 
+    .article6 .cont { overflow: hidden; margin: 20px 0 50px; padding-left: 5%; }
     .article6 .cont li {  float: left; width: 45%; height: 188px; display: none; margin: 10px 10px; border-radius: 10px; position: relative; }
 
     .article7 .inr { float: none; }
@@ -109,6 +120,14 @@
     .inrcenter { width: 96%; margin-right: 2%; margin-left: 2%; position: relative; }
     .inrright { width: 90%; margin-right: 5%; margin-left: 5%; margin-top: 100px; }
     .inrright p span { display: inline-block; }
+
+    .showbox .show { background: #f6ece3; width: 450px; height: 450px; text-align: center; border-radius: 10px; padding: 20px; position: relative; } 
+    .showbox .show h3 { font-size: 30px; margin-bottom: 20px; font-weight: bold; color: #363636; }
+    .showbox .show img { border-radius: 20px; width: 300px; height: 150px; margin-bottom: 20px; }
+    .showbox .show p { font-size: 20px;  }
+    .showbox .show p:nth-of-type(2) { font-size: 14px; margin-top: 10px; line-height: 2; }
+    .showbox .show p:nth-of-type(3) { font-size: 20px; margin-top: 10px; font-weight: bold; }
+    .showbox .show i { position: absolute; top: 105%; left: 50%; transform: translate(-50%); width: 40px; height: 40px; line-height: 37px; font-size: 30px; color: #fff; border-radius: 50%; border: 2px solid #fff; cursor: pointer; }
 
     .sns { position: fixed; bottom: 50px; right: 30px; text-align: center; color: #fff; }
 
@@ -132,14 +151,15 @@
     .article6 h2::before { content: ''; position: absolute; top: 130%; left: 50%; transform: translate(-50%); width: 250px; height: 5px; background: linear-gradient(to right, #ac9ec1, #c7999c); }
     .article6 .title li { display: inline-block; margin-left: 0px; }
     .article6 .title li a { display: block; padding: 10px  7px; background: #363636; color: #fff; border-radius: 5px; transition: all 0.6s; box-shadow: 2px 2px 3px #999; }
+    .article6 .cont { overflow: hidden; margin: 20px 0 50px; padding-left: 1%; }
     .article6 .cont li {  float: left; width: 95%; height: 188px; display: none; margin: 10px 10px; border-radius: 10px; position: relative; }
 
-    .showbox .show { background: #f6ece3; width: 400px; height: 450px; text-align: center; border-radius: 10px; padding: 20px; position: relative; } 
-    .showbox .show h3 { font-size: 35px; margin-bottom: 20px; font-weight: bold; color: #363636; }
+    .showbox .show { background: #f6ece3; width: 450px; height: 450px; text-align: center; border-radius: 10px; padding: 20px; position: relative; } 
+    .showbox .show h3 { font-size: 25px; margin-bottom: 20px; font-weight: bold; color: #363636; }
     .showbox .show img { border-radius: 20px; width: 300px; height: 150px; margin-bottom: 20px; }
     .showbox .show p { font-size: 20px;  }
-    .showbox .show p:nth-of-type(2) { font-size: 16px; margin-top: 10px; line-height: 2; }
-    .showbox .show p:nth-of-type(3) { font-size: 25px; margin-top: 20px; font-weight: bold; }
+    .showbox .show p:nth-of-type(2) { font-size: 14px; margin-top: 10px; line-height: 2; }
+    .showbox .show p:nth-of-type(3) { font-size: 20px; margin-top: 10px; font-weight: bold; }
     .showbox .show i { position: absolute; top: 105%; left: 50%; transform: translate(-50%); width: 40px; height: 40px; line-height: 37px; font-size: 30px; color: #fff; border-radius: 50%; border: 2px solid #fff; cursor: pointer; }
 }
 
