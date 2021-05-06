@@ -98,8 +98,8 @@ button { outline: none; }
 .article6 h2::before { content: ''; position: absolute; top: 130%; left: 50%; transform: translate(-50%); width: 350px; height: 10px; background: linear-gradient(to right, #ac9ec1, #c7999c); }
 .article6.on h2 { animation: fadeInDown 1s both; opacity: 1; }
 .article6 .title li { display: inline-block; margin-left: 10px; }
-.article6 .title li a { display: block; padding: 10px  20px; background: #363636; color: #fff; border-radius: 5px; transition: all 0.6s; box-shadow: 2px 2px 3px #999; }
-.article6 .title li.on a { color: yellow; }
+.article6 .title li a { display: block; padding: 10px  20px;  color: #000; font-weight: bold; border-radius: 5px; transition: all 0.6s; box-shadow: 2px 2px 3px #999; }
+.article6 .title li.on a { color: #fff; background: #999; }
 .article6 .cont { overflow: hidden; margin: 20px 0 50px;  }
 .article6 .cont li { float: left;  width: 23%; height: 188px; display: none; margin: 10px 10px; border-radius: 10px; position: relative; }
 
