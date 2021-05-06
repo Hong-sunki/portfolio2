@@ -67,8 +67,7 @@ for (let i = 0; i < elDepth1Li.length; i++) {
     elDepth1Li[i].addEventListener('mouseover', function () {
        if ( elHtml.classList.contains('pc') ) {
            this.classList.add('on')
-       }
-        
+       } 
     })
 
     elDepth1Li[i].addEventListener('mouseout', function () {
@@ -84,14 +83,7 @@ for (let i = 0; i < elDepth1Li.length; i++) {
                 }
             }
             this.classList.add('on')
-        //     elDepth1Li[i].classList.toggle('on')
-        // for (let j of this.parentNode.children) {
-        //     if (j !== this) {
-        //         j.classList.remove('on')
-        //     }
-        // }
-        }
-        
+        }   
     })
 }
 

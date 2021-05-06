@@ -53,13 +53,7 @@ function scrollOX(status) {
     return htmlWidth
 }
 
-// function scrollOX(status) {
-//     $('html').css({
-//         overflowY: status
-//     })
-//     var htmlWidth = $('html').width()
-//     return htmlWidth
-// }
+
 let swh = scrollOX('hidden')
 let sws = scrollOX('scroll')
 let swd = swh - sws
@@ -100,18 +94,6 @@ function init() {
         }
     }
     
-    // if (ww > deviceSize && !$('html').hasClass('pc')) {
-    //     $('html').addClass('pc').removeClass('mobile')
-    //     $('.depth1 > li').removeClass('on')
-    //     $('#header .close').removeClass('on')
-    //     $('html').scrollTop(0)
-    // } else if (ww <= deviceSize && !$('html').hasClass('mobile')) {
-    //     $('html').addClass('mobile').removeClass('pc')
-    //     $('#header #nav').removeClass('on')
-    //     $('.depth1 > li').removeClass('on')
-    //     $('#header .open').addClass('on')
-    //     $('html').scrollTop(0)
-    // }
 }
 
 init()
@@ -120,9 +102,6 @@ window.addEventListener('resize', function(){
     init()
 })
 
-// $(window).on('resize', function () {
-//     init()
-// })
 
 
 
@@ -147,7 +126,6 @@ for (let i = 0; i < elDepth1Li.length; i++) {
        if ( elHtml.classList.contains('pc') ) {
            this.classList.add('on')
        }
-        
     })
 
     elDepth1Li[i].addEventListener('mouseout', function () {
@@ -163,18 +141,7 @@ for (let i = 0; i < elDepth1Li.length; i++) {
                 }
             }
             this.classList.add('on')
-            
-            
-        //     elDepth1Li[i].classList.toggle('on')
-        // for (let j of this.parentNode.children) {
-        //     if (j !== this) {
-        //         j.classList.remove('on')
-        //     }
-        // }
-        //  $(this).parents('.navi').siblings().find('li').removeClass('on') 
-            
-        }
-        
+        } 
     })
 }
 
@@ -228,15 +195,6 @@ window.addEventListener('scroll', function(){
     }
 })
 
-
-// $(window).on('scroll', function () {
-//     var sct = $(this).scrollTop()
-//     if (sct >= 10 && !$('#header').hasClass('on')) {
-//         $('#header').addClass('on')
-//     } else if (sct < 10 && $('#header').hasClass('on')) {
-//         $('#header').removeClass('on')
-//     }
-// })
 
 let elArticle3 = document.querySelectorAll('.article3 > a')
 for (let p = 0; p < elArticle3.length; p++) {
@@ -320,7 +278,7 @@ showI.addEventListener('click', function(){
 })
 
 
-//ajax
+
 let xhr = new XMLHttpRequest()
 
 
@@ -353,28 +311,6 @@ xhr.onload = function(){
     }
 }
 
-// xhr.addEventListener('DOMContentLoaded', function(){
-//     if ( xhr.status === 200 ) {
-//         let data = JSON.parse(xhr.responseText) 
-//         for ( let w in elLi ) { 
-//             elLi[w].addEventListener('click', function(e){  
-//                 e.preventDefault()
-//                     Price = data[w].Price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-//                     showH3.textContent = `${data[w].area}`
-//                     let imgSrc = `${data[w].Photo}`
-//                     showImg.setAttribute('src', imgSrc)
-//                     date.textContent = `${data[w].Period}`
-//                     ex.textContent = `${data[w].Explanation}`
-//                     price.textContent = `${Price} 원 ~`
-                    
-//         })
-//         }
-        
-
-//     } else {
-//         alert('오류발생 또는 통신장애')
-//     }
-// })
 
 let elInrcentera = document.querySelector('.inrcenter > a')
 elInrcentera.addEventListener('mouseover', function () {
@@ -394,17 +330,6 @@ for (let a = 0; a < elSns.length; a++) {
     })
 }
 
-// $('.top').on('click', function (e) {
-//     e.preventDefault()
-//     let sct = $(window).scrollTop()
-//     if (sct === 0) {
-//         return false
-//     } else {
-//         $('html').animate({
-//             scrollTop: 0
-//         }, 1000)
-//     }
-// })
 
 
 const goTop = document.querySelector('.top')
@@ -422,15 +347,6 @@ goTop.addEventListener('click', function(e){
         })
     }
 })
-
-
-
-
-
-
-
-
-
 
 
 const article2 = document.querySelector('.article2')
@@ -465,24 +381,4 @@ window.addEventListener('scroll', function(){
 
 
 
-// $(window).on('scroll', function(){
-//     let sct =  $(this).scrollTop()
-//     if ( sct >= article2Near  ) {
-//         $('.article2').addClass('on')
-//     } else if ( sct === 0 ) {
-//         $('.article2').removeClass('on')
-//     }
-
-//     if ( sct >= article5Near  ) {
-//         $('.article5').addClass('on')
-//     } else if ( sct === 0 ) {
-//         $('.article5').removeClass('on')
-//     }
-
-//     if ( sct >= article6Near  ) {
-//         $('.article6').addClass('on')
-//     } else if ( sct === 0 ) {
-//         $('.article6').removeClass('on')
-//     }
-// })
 

@@ -52,7 +52,6 @@ function init() {
             }
         }
     }
-    
 }
 
 init()
@@ -84,14 +83,7 @@ for (let i = 0; i < elDepth1Li.length; i++) {
                 }
             }
             this.classList.add('on')
-        //     elDepth1Li[i].classList.toggle('on')
-        // for (let j of this.parentNode.children) {
-        //     if (j !== this) {
-        //         j.classList.remove('on')
-        //     }
-        // }
-        }
-        
+        }        
     })
 }
 
