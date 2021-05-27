@@ -41,6 +41,9 @@
 #### 3.3 ajax json 데이터를 통해 여행지 리스트 표시
 ![20210527_203349](https://user-images.githubusercontent.com/77268941/119819218-17e03280-bf2b-11eb-81f2-021695f951e6.png)
 
+#### 3.4 동영상 삽입으로 인해 여행욕구 자극
+![20210527_203656](https://user-images.githubusercontent.com/77268941/119819411-4f4edf00-bf2b-11eb-8622-117e32537d32.png)
+
 
 
 
