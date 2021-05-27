@@ -33,10 +33,13 @@
 ### 3. 핵심 기능
 
 #### 3.1 메뉴애니메이션을 여행사 느낌이 맞춰 날개 펼치듯이 제작
+![20210527_203307](https://user-images.githubusercontent.com/77268941/119819147-072fbc80-bf2b-11eb-86d2-f7a2413ac41d.png)
 
 #### 3.2 탭메뉴를 통해 대륙별 리스트 정렬
+![20210527_203335](https://user-images.githubusercontent.com/77268941/119819192-1151bb00-bf2b-11eb-9153-1f1f11ec1865.png)v
 
 #### 3.3 ajax json 데이터를 통해 여행지 리스트 표시
+![20210527_203349](https://user-images.githubusercontent.com/77268941/119819218-17e03280-bf2b-11eb-81f2-021695f951e6.png)
 
 
 
